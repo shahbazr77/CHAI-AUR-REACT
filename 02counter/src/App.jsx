@@ -12,7 +12,18 @@ function App() {
 
 const addValue = () => {  
  if(counter<=19){ 
+//es sorat main ak hi value change ho gi  
  setCounter(counter+1);
+ setCounter(counter+1);
+ setCounter(counter+1);
+ setCounter(counter+1);
+
+//es sorat main 4 value change ho gi
+//  setCounter(prevCounter => prevCounter+1);
+//  setCounter(prevCounter => prevCounter+1);
+//  setCounter(prevCounter => prevCounter+1);
+//  setCounter(prevCounter => prevCounter+1);
+
  }else{
   alert("Counter value cannot be greater than 20");
  }
